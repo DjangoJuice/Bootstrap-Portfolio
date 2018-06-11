@@ -3,8 +3,13 @@
 <!-- START HEAD ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <head>
         <metadata charset="UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Mike Stewart</title>
-        <link rel="stylesheet" type="text/css" href=".\assets\css\style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
 <!-- END HEAD ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
@@ -13,36 +18,33 @@
 <!-- START BODY ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <body>
     
- <!--START HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->   
-    <header>
+<!--START HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <nav class="navbar navbar-light header" >
+        <div class="container">
         <div class="header-center">
-            <h1 id="header-name">
-                Mike Stewart
-            </h1>
-            <button type="button" onclick="document.getElementById('about-hinduism').innerHTML = '(Not About Me But) About Hinduism!'">Click Me!
-                </button>
-            <button type="button" onclick="document.getElementById('dragon').src = './assets/images/dragon.png'">Dragon!
-            </button>
-            <div id="header-buttons">
-                <button type="button" id="button-about">
-                    <a href="./index.html">About</a>
-                </button>
-                <button type="button" id="button-portfolio">
-                    <a href="./portfolio.html">Portfolio</a>
-                </button>
-                 <button type="button" id="button-contact">
-                    <a href="./contact.html">Contact</a>
-                </button>
-            </div>
+        <a class="navbar-brand">Mike Stewart</a>
+
+        
+            <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
+            
+
+            
+            <a class="nav-link" href="#">Portfolio</a>
+            
+
+            
+            <a class="nav-link" href="#">Contact</a>
+            
+
         </div>
-    </header>
+        </div>
+        
+    </nav>
 <!--END HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-
-
+    
     <section>
-        <div class="main-content clearfix">
-            <h2 class="main-content-header" id="about-hinduism">
+        <div class="container section">
+            <h2 class="text-center" id="about-hinduism">
                 About Me
             </h2>
 
@@ -58,13 +60,6 @@
             </p>
         </div>
     </section>
-
-
-
-
-    <footer>
-<!--FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    </footer>
 
 
 </body>
